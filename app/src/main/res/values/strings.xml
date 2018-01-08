@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">EmailValidator</string>
+    <string name="limit_reached_message">Rate limit exceeded</string>
+    <string name="invalid_email_message">The email address is invalid</string>
+    <string name="valid_email_message">The email address is valid!</string>
 </resources>
