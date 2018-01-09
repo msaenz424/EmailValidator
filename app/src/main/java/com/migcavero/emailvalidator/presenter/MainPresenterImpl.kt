@@ -15,7 +15,7 @@ class MainPresenterImpl constructor(mainView: MainView) : MainPresenter, MainInt
     }
 
     override fun onValidResponse(email: Email) {
-        mMainView.displayValidEmailMessage()
+        mMainView.displayValidEmailMessage(email)
     }
 
     override fun onInvalidResponse() {
@@ -23,7 +23,7 @@ class MainPresenterImpl constructor(mainView: MainView) : MainPresenter, MainInt
     }
 
     override fun onLimitReachedResponse() {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        mMainView.displayLimitReachedMessage()
     }
 
 }

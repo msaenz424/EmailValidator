@@ -3,4 +3,10 @@
     <string name="limit_reached_message">Rate limit exceeded</string>
     <string name="invalid_email_message">The email address is invalid</string>
     <string name="valid_email_message">The email address is valid!</string>
+    <string name="email_text">Email:</string>
+    <string name="domain_text">Domain:</string>
+    <string name="mx_record_text">MX Record:</string>
+    <string name="disposable_text">Disposable:</string>
+    <string name="alias_text">Alias:</string>
+
 </resources>
